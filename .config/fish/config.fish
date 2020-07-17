@@ -22,4 +22,4 @@ alias dcdown 'docker-compose down'
 alias dps 'docker ps'
 alias dimages 'docker images'
 
-alias config 'git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config 'git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
