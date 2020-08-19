@@ -4,6 +4,7 @@
 env:
   TERM: xterm-256color
 
+background_opacity: 0.8
 window:
   padding:
     x: 6
@@ -18,45 +19,44 @@ scrolling:
   history: 5000
 font:
   normal:
-    family: Iosevka Nerd Font
-    style: Regular
+    family: UbuntuMono Nerd Font
   bold:
-    family: Iosevka Nerd Font
+    family: UbuntuMono Nerd Font
     style: Bold
   italic:
-    family: Iosevka Nerd Font
+    family: UbuntuMono Nerd Font
     style: Italic
-    size: 13.0
+  size: 14.0
   offset:
     x: 1
     y: 1
-  
-# Colors (rebecca)
+
+# Colors (Gruvbox Dark)
 colors:
   bright:
-    black: '#666699'
-    blue: '#69c0fa'
-    cyan: '#8bfde1'
-    green: '#01eac0'
-    magenta: '#c17ff8'
-    red: '#ff92cd'
-    white: '#f4f2f9'
-    yellow: '#fffca8'
+    black: '#7f7061'
+    blue: '#719586'
+    cyan: '#7db669'
+    green: '#aab01e'
+    magenta: '#c77089'
+    red: '#f73028'
+    white: '#e6d4a3'
+    yellow: '#f7b125'
   cursor:
-    cursor: '#b89bf9'
-    text: '#292a44'
+    cursor: '#e6d4a3'
+    text: '#1e1e1e'
   normal:
-    black: '#12131e'
-    blue: '#7aa5ff'
-    cyan: '#56d3c2'
-    green: '#04dbb5'
-    magenta: '#bf9cf9'
-    red: '#dd7755'
-    white: '#e4e3e9'
-    yellow: '#f2e7b7'
+    black: '#1e1e1e'
+    blue: '#377375'
+    cyan: '#578e57'
+    green: '#868715'
+    magenta: '#a04b73'
+    red: '#be0f17'
+    white: '#978771'
+    yellow: '#cc881a'
   primary:
-    background: '#292a44'
-    foreground: '#e8e6ed'
+    background: '#1e1e1e'
+    foreground: '#e6d4a3'
   selection:
-    background: '#663399'
-    text: '#f4f2f9' 
+    background: '#e6d4a3'
+    text: '#534a42'
